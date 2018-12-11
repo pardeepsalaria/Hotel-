@@ -1,0 +1,300 @@
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\obj\Debug\HMS.UI.csprojAssemblyReference.cache
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\obj\Debug\HMS.UI.csproj.CoreCompileInputs.cache
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\ApplicationInsights.config
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HotelManagementSystem.dll.config
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HotelManagementSystem.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HotelManagementSystem.pdb
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csc.exe
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csc.exe.config
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csc.rsp
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csi.exe
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csi.exe.config
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csi.rsp
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.Managed.Core.targets
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.AppContext.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Console.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.IO.Compression.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.IO.Pipes.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Claims.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.ValueTuple.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Xml.XPath.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\vbc.exe
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\vbc.exe.config
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\vbc.rsp
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\VBCSCompiler.exe
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Antlr3.Runtime.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\EntityFramework.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HMS.BAL.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.Web.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.ApplicationInsights.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Newtonsoft.Json.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Helpers.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Mvc.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Optimization.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Razor.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\WebGrease.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HMS.DAL.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HMS.BAL.pdb
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\EntityFramework.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Helpers.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Mvc.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Optimization.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Razor.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Newtonsoft.Json.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Antlr3.Runtime.pdb
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.Web.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HMS.DAL.pdb
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HMS.DAL.dll.config
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\obj\Debug\HMS.UI.csproj.CopyComplete
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.dll
+D:\work space\HM Application\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.pdb
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\ApplicationInsights.config
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HotelManagementSystem.dll.config
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HotelManagementSystem.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HotelManagementSystem.pdb
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csc.exe
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csc.exe.config
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csc.rsp
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csi.exe
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csi.exe.config
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csi.rsp
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.Managed.Core.targets
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.AppContext.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Console.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.IO.Compression.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.IO.Pipes.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Claims.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.ValueTuple.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Xml.XPath.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\vbc.exe
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\vbc.exe.config
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\vbc.rsp
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\VBCSCompiler.exe
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Antlr3.Runtime.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\EntityFramework.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\EntityFramework.SqlServer.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HMS.BAL.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.Web.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.ApplicationInsights.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Newtonsoft.Json.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Helpers.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Mvc.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Optimization.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Razor.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.Deployment.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.Razor.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\WebGrease.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HMS.DAL.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HMS.BAL.pdb
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\EntityFramework.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\EntityFramework.SqlServer.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Helpers.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Mvc.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Optimization.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Razor.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.Deployment.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.Razor.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Newtonsoft.Json.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Antlr3.Runtime.pdb
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.Web.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HMS.DAL.pdb
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HMS.DAL.dll.config
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\obj\Debug\HMS.UI.csprojAssemblyReference.cache
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\obj\Debug\HMS.UI.csproj.CoreCompileInputs.cache
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\obj\Debug\HMS.UI.csproj.CopyComplete
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.dll
+F:\workspace\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.pdb
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\ApplicationInsights.config
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HotelManagementSystem.dll.config
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HotelManagementSystem.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HotelManagementSystem.pdb
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csc.exe
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csc.rsp
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csi.exe
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\csi.rsp
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\vbc.exe
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\EntityFramework.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HMS.BAL.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Razor.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\WebGrease.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HMS.DAL.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HMS.BAL.pdb
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\EntityFramework.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.Razor.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HMS.DAL.pdb
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\bin\HMS.DAL.dll.config
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\obj\Debug\HMS.UI.csprojAssemblyReference.cache
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\obj\Debug\HMS.UI.csproj.CoreCompileInputs.cache
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\obj\Debug\HMS.UI.csproj.CopyComplete
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.dll
+C:\Users\pardeep salaria\Desktop\HM ApplicationUI\HM Application\HM Application\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.pdb

@@ -1,0 +1,54 @@
+﻿@using HMS.BAL.Models
+@model LoginModel
+@{
+    ViewBag.Title = "Log in";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+<div class="row justify-content-center pt-5">
+    <div class="col-md-6 pt-5">
+        <div class="card">
+            <div class="card-body">
+                <section id="loginForm">
+                    @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="hotel-heading text-uppercase font-weight-bold text-center mb-3 logo-shadow"><span class="text-danger"> Luxury</span> hotel</div>
+                        <h6 class="text-dark">Use a local account to <span class="text-danger font-weight-bold">Log in</span>.</h6>
+                        <hr />
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Email, new { @class = "col-12 control-label font-weight-bold" })
+                            <div class="col-md-12">
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger validation px-2" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Password, new { @class = "col-12 control-label font-weight-bold" })
+                            <div class="col-md-12">
+                                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger validation px-2" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-5 col-lg-3">
+                                <input type="submit" value="LogIn" class="btn btn-danger font-weight-bold text-uppercase btn-block" />
+                            </div>
+                        </div>
+
+                        @* Enable this once you have account confirmation enabled for password reset functionality
+                        <p>
+                            @Html.ActionLink("Forgot your password?", "ForgotPassword")
+                        </p>*@
+                    }
+                </section>
+            </div>
+        </div>
+    </div>
+  
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

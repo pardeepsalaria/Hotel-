@@ -1,0 +1,98 @@
+﻿@model HMS.BAL.Models.BookingModel
+@{
+          
+                ViewBag.Title = "Details";
+                Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    a {
+        color: black;
+        text-decoration: none !important;
+        font-weight: 700;
+    }
+
+        a:hover {
+            color: #DC3545;
+        }
+</style>
+<div class="row py-4">
+    <div class="col-lg-4 col-md-6">
+        <div class="card border-0">
+            <div class="card-body py-3 text-center h5 mb-0 text-danger font-weight-bold">Some Details About Room</div>
+        </div>
+    </div>
+</div>
+<div>
+    <dl>
+        <div class="row text-center">
+            <div class="col-lg-3 col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <dt>
+                            @Html.DisplayNameFor(model => model.RoomNumber)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.RoomNumber)
+                        </dd>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <dt>
+                            @Html.DisplayNameFor(model => model.fromDate)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.fromDate)
+                        </dd>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <dt>
+                            @Html.DisplayNameFor(model => model.To)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.To)
+                        </dd>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dl>
+</div>
+<p>
+    @*@Html.ActionLink("Cancel", "Booking", new { id = Model.Id, actionType = 2 })*@
+
+    <div class="my-3"><i class="fa fa-arrow-left text-danger"></i> @Html.ActionLink("Back to List", "Index")</div>
+    <a class="btn btn-dark text-white font-weight-bold" onclick="cancelBooking(@Model.Id);"><i class="fa fa-times"></i> Cancel Booking</a>
+</p>
+
+<script>
+    function cancelBooking(roomId)
+    {
+        if (confirm("Are you sure?")) {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("Cancel")',
+                data: { roomId: '@Model.Id'},
+                dataType: "json",
+                //contentType: "application/json; charset=utf-8",
+                success: function () {
+                    // alert("Data has been deleted.");
+                    window.location.href = '@Url.Action("Index")';
+                },
+                error: function (dfs,ad,erf) {
+                    debugger;
+                    alert("Error while cancelation!");
+                }
+            });
+        }
+    }
+</script>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tbl_RoomBooking">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoomId" Type="Int32" Nullable="false" />
+    <Property Name="FromDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ToDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="USER" Relationship="HMSModel.FK__tbl_RoomB__UserI__4D94879B" FromRole="tbl_RoomBooking" ToRole="USER" />
+    <NavigationProperty Name="tbl_Room" Relationship="HMSModel.FK__tbl_RoomB__RoomI__4CA06362" FromRole="tbl_RoomBooking" ToRole="tbl_Room" />
+  </EntityType>
+  <EntityType Name="tbl_RoomType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_Staff">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Salary" Type="Int32" />
+    <Property Name="Category" Type="Int32" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_StaffCategory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="HMSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tbl_RoomBooking" EntityType="Self.tbl_RoomBooking" />
+    <EntitySet Name="tbl_RoomType" EntityType="Self.tbl_RoomType" />
+    <EntitySet Name="tbl_Staff" EntityType="Self.tbl_Staff" />
+    <EntitySet Name="tbl_StaffCategory" EntityType="Self.tbl_StaffCategory" />
+    <EntitySet Name="ROLES" EntityType="HMSModel.ROLE" />
+    <EntitySet Name="UserRoles" EntityType="HMSModel.UserRole" />
+    <AssociationSet Name="FK_UserRoles_ROLES" Association="HMSModel.FK_UserRoles_ROLES">
+      <End Role="ROLE" EntitySet="ROLES" />
+      <End Role="UserRole" EntitySet="UserRoles" />
+    </AssociationSet>
+    <EntitySet Name="USERS" EntityType="HMSModel.USER" />
+    <AssociationSet Name="FK__tbl_RoomB__UserI__4D94879B" Association="HMSModel.FK__tbl_RoomB__UserI__4D94879B">
+      <End Role="USER" EntitySet="USERS" />
+      <End Role="tbl_RoomBooking" EntitySet="tbl_RoomBooking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserRoles_USERS" Association="HMSModel.FK_UserRoles_USERS">
+      <End Role="USER" EntitySet="USERS" />
+      <End Role="UserRole" EntitySet="UserRoles" />
+    </AssociationSet>
+    <EntitySet Name="tbl_Room" EntityType="HMSModel.tbl_Room" />
+    <AssociationSet Name="FK__tbl_RoomB__RoomI__4CA06362" Association="HMSModel.FK__tbl_RoomB__RoomI__4CA06362">
+      <End Role="tbl_Room" EntitySet="tbl_Room" />
+      <End Role="tbl_RoomBooking" EntitySet="tbl_RoomBooking" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ROLE">
+    <Key>
+      <PropertyRef Name="Role_Id" />
+    </Key>
+    <Property Name="Role_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="RoleDescription" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="UserRoles" Relationship="HMSModel.FK_UserRoles_ROLES" FromRole="ROLE" ToRole="UserRole" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="RoleId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ROLE" Relationship="HMSModel.FK_UserRoles_ROLES" FromRole="UserRole" ToRole="ROLE" />
+    <NavigationProperty Name="USER" Relationship="HMSModel.FK_UserRoles_USERS" FromRole="UserRole" ToRole="USER" />
+  </EntityType>
+  <Association Name="FK_UserRoles_ROLES">
+    <End Type="HMSModel.ROLE" Role="ROLE" Multiplicity="1" />
+    <End Type="HMSModel.UserRole" Role="UserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ROLE">
+        <PropertyRef Name="Role_Id" />
+      </Principal>
+      <Dependent Role="UserRole">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="USER">
+    <Key>
+      <PropertyRef Name="User_Id" />
+    </Key>
+    <Property Name="User_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EMail" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tbl_RoomBooking" Relationship="HMSModel.FK__tbl_RoomB__UserI__4D94879B" FromRole="USER" ToRole="tbl_RoomBooking" />
+    <NavigationProperty Name="UserRoles" Relationship="HMSModel.FK_UserRoles_USERS" FromRole="USER" ToRole="UserRole" />
+  </EntityType>
+  <Association Name="FK__tbl_RoomB__UserI__4D94879B">
+    <End Type="HMSModel.USER" Role="USER" Multiplicity="1" />
+    <End Type="HMSModel.tbl_RoomBooking" Role="tbl_RoomBooking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER">
+        <PropertyRef Name="User_Id" />
+      </Principal>
+      <Dependent Role="tbl_RoomBooking">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserRoles_USERS">
+    <End Type="HMSModel.USER" Role="USER" Multiplicity="1" />
+    <End Type="HMSModel.UserRole" Role="UserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER">
+        <PropertyRef Name="User_Id" />
+      </Principal>
+      <Dependent Role="UserRole">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="tbl_Room">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoomNumber" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="RoomType" Type="Int32" Nullable="false" />
+    <Property Name="TV" Type="Boolean" Nullable="false" />
+    <Property Name="HotWater" Type="Boolean" Nullable="false" />
+    <Property Name="Towel" Type="Boolean" Nullable="false" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+    <Property Name="IsAvailable" Type="Boolean" Nullable="false" />
+    <Property Name="Price" Type="Int32" />
+    <NavigationProperty Name="tbl_RoomBooking" Relationship="HMSModel.FK__tbl_RoomB__RoomI__4CA06362" FromRole="tbl_Room" ToRole="tbl_RoomBooking" />
+  </EntityType>
+  <Association Name="FK__tbl_RoomB__RoomI__4CA06362">
+    <End Type="HMSModel.tbl_Room" Role="tbl_Room" Multiplicity="1" />
+    <End Type="HMSModel.tbl_RoomBooking" Role="tbl_RoomBooking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Room">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tbl_RoomBooking">
+        <PropertyRef Name="RoomId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

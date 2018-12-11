@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title Hotel Management System</title>
+    @Styles.Render("~/Content/css")
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+        <a class="navbar-brand hotel-heading text-uppercase font-weight-bold text-white" href="#"><span class="text-danger"> Luxury</span> hotel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto my-lg-2">
+            
+                <li class="nav-item mt-3 mt-lg-0">
+                    <a class="btn text-white mr-4" style="cursor: default;box-shadow:0px 1px 1px 1px black" href="Javascript:void(0);">Welcome: @Convert.ToString(Session["LoggedInUser"])</a>                   
+                </li>     
+                <li class="nav-item my-3 my-lg-0"> 
+                <a class="btn btn-danger font-weight-bold text-uppercase px-4" href="@Url.Action("LogOff","Account")">Logout</a></li>
+             
+            </ul>
+          
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()      
+        @*<footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>*@
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

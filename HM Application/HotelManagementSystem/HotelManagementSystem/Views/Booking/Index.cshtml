@@ -1,0 +1,88 @@
+﻿@model IEnumerable<HMS.BAL.Models.RoomModel>
+
+@{
+     ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    a {
+        font-weight: 700 !important;
+        color: black;
+        text-decoration: none !important;
+    }
+
+        a:hover {
+            color: #DC3545;
+        }
+</style>
+<div class="row py-3">
+    <div class="col-lg-2 col-md-4">
+        <div class="card border-0">
+            <div class="card-body py-3 text-center h5 mb-0 text-danger font-weight-bold">Rooms List</div>
+        </div>
+    </div>
+</div>
+<table class="table table-responsive-md text-center">
+    <tr class="bg-danger text-white">
+        <th>
+            @Html.DisplayNameFor(model => model.RoomNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RoomTypeName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HotWater)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Towel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsAvailable)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoomNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoomType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HotWater)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Towel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsAvailable)
+            </td>
+            <td>
+                @if (item.IsAvailable)
+                {
+                    @Html.ActionLink("Book", "Edit", new { RoomId = item.Id })
+                }
+                else
+                {
+                    @Html.ActionLink("Details", "Details", new { id = item.Id })
+                }
+            </td>
+        </tr>
+    }
+
+</table>

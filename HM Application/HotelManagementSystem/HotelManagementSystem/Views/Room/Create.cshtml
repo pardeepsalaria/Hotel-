@@ -1,0 +1,123 @@
+﻿@model HMS.BAL.Models.RoomModel
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    a {
+        text-decoration: none !important;
+        color: black;
+        font-weight: 700;
+    }
+
+        a:hover {
+            color: #DC3545;
+        }
+</style>
+<div class="row pt-3 pb-4">
+    <div class="col-lg-3 col-md-5">
+        <div class="card border-0">
+            <div class="card-body py-3 text-center h5 mb-0 text-danger font-weight-bold">Room Create</div>
+        </div>
+    </div>
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <div class="form-horizontal">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.RoomNumber, htmlAttributes: new { @class = "control-label col-md-12 font-weight-bold" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.RoomNumber, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.RoomNumber, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.RoomType, htmlAttributes: new { @class = "control-label col-md-12 font-weight-bold" })
+                            <div class="col-md-12">
+                                @Html.DropDownListFor(model => model.RoomType,
+                    new SelectList(Model.RoomTypes, "Id", "Name"),
+                    "Select status",
+                    new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.RoomType, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.TV, htmlAttributes: new { @class = "control-label col-md-12 font-weight-bold" })
+                            <div class="col-md-12">
+                                <div class="checkbox">
+                                    @Html.EditorFor(model => model.TV)
+                                    @Html.ValidationMessageFor(model => model.TV, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.HotWater, htmlAttributes: new { @class = "control-label col-md-12 font-weight-bold" })
+                            <div class="col-md-12">
+                                <div class="checkbox">
+                                    @Html.EditorFor(model => model.HotWater)
+                                    @Html.ValidationMessageFor(model => model.HotWater, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Towel, htmlAttributes: new { @class = "control-label col-md-12 font-weight-bold" })
+                            <div class="col-md-12">
+                                <div class="checkbox">
+                                    @Html.EditorFor(model => model.Towel)
+                                    @Html.ValidationMessageFor(model => model.Towel, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-12 font-weight-bold" })
+                            <div class="col-md-12">
+                                <div class="checkbox">
+                                    @Html.EditorFor(model => model.Price)
+                                    @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.IsAvailable, htmlAttributes: new { @class = "control-label col-md-12 font-weight-bold" })
+                            <div class="col-md-12">
+                                <div class="checkbox">
+                                    @Html.EditorFor(model => model.IsAvailable)
+                                    @Html.ValidationMessageFor(model => model.IsAvailable, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-lg-4 col-md-6">
+                                <input type="submit" value="Create" class="btn btn-danger font-weight-bold text-uppercase btn-block" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+    <div class="my-4">
+        <i class="fa fa-arrow-left text-danger"></i>  @Html.ActionLink("Back to List", "Index")
+    </div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

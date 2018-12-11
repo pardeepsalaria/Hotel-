@@ -1,0 +1,29 @@
+
+
+instructions:
+
+1. run the sql script in SQL Management Studio
+2. open code in VS 2017
+
+
+Description:
+
+The name of applicaton is Hote Management Sysem. We have 2 types of user 
+
+1. Admin
+Credentials: admin@xyz.com/Test@123
+
+2. User
+Credentials: user@xyz.com/Test@123
+
+Admin: This user is responcible for to manage the staff members and hotel rooms.
+
+User: This user can boook hotel room for specific date.
+
+
+Technical info:
+
+IDE: Visual studio 2017
+ORM: Entity Framwork 6
+UI: HTML & Bootstrap css
+Database: SQL server 

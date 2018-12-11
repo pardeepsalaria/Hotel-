@@ -1,0 +1,92 @@
+﻿@model IEnumerable<HMS.BAL.Models.RoomModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    a {
+        text-decoration: none !important;
+        color: white;
+    }
+
+        a:hover {
+            text-decoration: none !important;
+            color: white !important;
+        }
+</style>
+<div class="row py-3">
+    <div class="col-lg-2 col-md-4">
+        <div class="card border-0">
+            <div class="card-body py-3 text-center h5 mb-0 text-danger font-weight-bold">Rooms List</div>
+        </div>
+    </div>
+</div>
+
+<p>
+    <div class="btn btn-dark font-weight-bold px-3 "><i class="fa fa-arrow-left mr-1"></i>  @Html.ActionLink("Main Page", "Admin", "Admin", null, new { @class = "" })</div>
+    <div class="btn btn-success font-weight-bold px-3 float-right">
+        <i class="fa fa-plus"></i> @Html.ActionLink("Create New", "Create")
+    </div>
+</p>
+<table class="table table table-responsive-md text-center">
+    <tr class="bg-danger text-white">
+        <th>
+            @Html.DisplayNameFor(model => model.RoomNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RoomType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HotWater)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Towel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsAvailable)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.RoomNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RoomTypeName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HotWater)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Towel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsAvailable)
+        </td>
+        <td>
+            <span class="bg-success px-2 py-1 mr-1">
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+            </span>
+            <span class="bg-dark px-2 py-1">
+                @Html.ActionLink("Details", "Details", new { id = item.Id })</span>
+            <span class="bg-danger px-2 py-1">  @Html.ActionLink("Delete", "Delete", new { id = item.Id })</span>
+</td>
+    </tr>
+}
+
+</table>

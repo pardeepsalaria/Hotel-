@@ -1,0 +1,53 @@
+﻿*{
+    font-family:unset;
+}
+/*index page*/
+.hotel-heading{
+    font-size:24px;
+    letter-spacing:1px;
+}
+.btn{
+    letter-spacing:.7px !important;
+}
+.hotel-sub-heading {
+    font-size: 12px !important;
+    font-weight: bolder !important;
+    letter-spacing: .5px;
+}
+.card {
+    background: #f8f9fa82;
+    box-shadow: 0px 0px 10px 0px;
+}
+.row-position{
+    position:relative;
+    top:10rem;
+}
+/*login page*/
+.logo-shadow {
+    box-shadow: 0px 1px 5px 0px indianred;
+}
+.form-group .form-control {
+    background: #272424a6;
+    color: #f7f1f1; 
+    border: none;
+}
+:-ms-input-placeholder {
+    color: rgb(235, 228, 228) !important;
+}
+.validation {
+    background: #ffffffbf;
+    float: right;
+}
+/*booking*/
+.table td {
+    box-shadow: 3px 4px 8px -5px !important;
+    border:none !important;
+}
+dl .row .card:hover .card-body {
+    box-shadow: 0px 1px 2px 1px #DC3545;
+    color: #DC3545;
+}
+/*admin*/
+.admin-hover .card:hover .card-body {
+    box-shadow: 0px 1px 2px 1px #DC3545;
+}
